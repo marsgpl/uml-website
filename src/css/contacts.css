@@ -1,6 +1,6 @@
 .contacts {
     background: #171717 url(../img/bg.png) repeat;
-    font-weight: 100;
+    font-weight: 300;
     font-size: 20px;
 }
 
@@ -59,9 +59,10 @@
 }
 
 .contact-dance {
+    list-style: none;
     width: 100%;
     height: 200px;
-    margin-top: 50px;
+    margin: 50px 0 0;
     background: no-repeat center / contain;
     background-image: url(../img/dance.gif);
 }
