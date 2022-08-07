@@ -1,0 +1,77 @@
+@media (orientation:portrait) {
+    html section {
+        padding: 8vw 5vw 20vw 5vw;
+    }
+
+    .front-logo {
+        width: 70vw;
+        height: 70vw;
+        margin-top: 0;
+    }
+
+    .front-title {
+        margin-top: -10vw;
+    }
+
+    .front-title h1 {
+        font-size: 10vw;
+    }
+
+    .front-links {
+        flex-direction: column;
+        margin-top: 15vw;
+        width: 100%;
+    }
+
+    .scroll-tip {
+        right: 0;
+        border-right: none;
+        height: 36px;
+    }
+
+    .about h2 {
+        margin-top: 7vw;
+        font-size: 22px;
+    }
+
+    .about-punch {
+        width: 90vw;
+        height: 70vw;
+    }
+
+    .about-punch-bubble.stronk {
+        padding: 8px 10px;
+        right: auto;
+        left: 10vw;
+    }
+
+    .about-punch-bubble.weak {
+        padding: 8px 10px;
+        right: 10vw;
+        left: auto;
+    }
+
+    .products-card {
+        margin: 7vw 8px 0;
+        width: calc(100vw - 16px);
+    }
+
+    .products-card-img {
+        height: calc(100vw - 16px);
+    }
+
+    .contact-cols {
+        margin-top: 7vw;
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .contact-col {
+        width: 100%;
+        padding: 0;
+    }
+
+    .contact-col li {
+        padding: 7vw;
+    }
+}

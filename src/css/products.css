@@ -6,11 +6,8 @@
     color: #272727;
 }
 
-.products-cards {
-    margin: 60px 60px 90px;
-}
-
 .products-card {
+    margin: 30px 60px 20px;
     width: 400px;
     border-radius: 8px;
     overflow: hidden;
@@ -56,6 +53,11 @@
     background: no-repeat center / contain;
     display: block;
     cursor: pointer;
+    transition: transform .1s linear;
+}
+
+.products-card-avail-btn:hover {
+    transform: scale(1.05, 1.05);
 }
 
 .products-card-avail-btn + .products-card-avail-btn {

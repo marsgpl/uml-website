@@ -9,7 +9,7 @@
 }
 
 .contact-cols {
-    margin: 70px 0 170px;
+    margin: 70px 0 0;
     display: flex;
 }
 
@@ -20,33 +20,41 @@
     margin: 0;
 }
 
-.contact-col li {
-    display: block;
+.contact-row {
+    display: flex;
     list-style: none;
-    padding: 0;
+    flex-direction: column;
+    text-decoration: none;
+    padding: 30px 55px;
+    box-sizing: border-box;
+    background: #171717;
+    border-radius: 5px;
+    box-shadow: 1px 1px 0 rgba(255, 255, 255, .05);
+}
+
+.contact-col li + li {
+    margin-top: 10px;
 }
 
 .contact-col label {
     display: block;
     color: #aaa;
-    cursor: pointer;
-}
-
-.contact-col span {
-    display: block;
-    color: #dadada;
-    margin-top: 10px;
     white-space: nowrap;
+    font-size: 18px;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .contact-col a {
     display: block;
+    color: #dadada;
+    margin-top: 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
     text-decoration: none;
-    cursor: pointer;
-    padding: 20px 55px;
 }
 
-.contact-col a:hover span {
+.contact-col a:hover {
     text-decoration: underline;
 }
 

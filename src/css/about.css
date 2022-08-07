@@ -9,18 +9,22 @@
 .about h2 {
     font-size: 32px;
     color: #272727;
-    margin: 70px 0 0 0;
+    margin: 40px 0 0 0;
     font-weight: 100;
+    max-width: 900px;
 }
 
 .about-punch {
     position: relative;
-    margin: 30px 30px 50px;
+    margin-top: 20px;
+    overflow: hidden;
+    width: calc(100vw - 160px);
+    height: 50vh;
 }
 
 .about-punch-img {
-    width: 640px;
-    height: 480px;
+    width: 100%;
+    height: 100%;
     background: url(../img/punch.png) no-repeat center / contain;
 }
 
@@ -28,19 +32,21 @@
     background: #272727;
     border-radius: 5px;
     padding: 15px 20px;
+    box-sizing: border-box;
     color: #fff;
     font-size: 14px;
     position: absolute;
     user-select: none;
     opacity: .9;
+    white-space: nowrap;
 }
 
 .about-punch-bubble.stronk {
-    left: 68px;
-    top: 60px;
+    right: calc(50% + 10vh);
+    top: 8%;
 }
 
 .about-punch-bubble.weak {
-    left: 502px;
-    top: 349px;
+    left: calc(50% + 20vh);
+    bottom: 8%;
 }
