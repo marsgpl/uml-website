@@ -1,0 +1,12 @@
+{
+    "background_color": "#171717",
+    "categories": ["business", "it", "software"],
+    "description": "Software company",
+    "display": "minimal-ui",
+    "icons": [
+        {
+            "src": "icons/logo.bg.svg",
+            "type": "image/svg+xml"
+        }
+    ]
+}

@@ -1,0 +1,59 @@
+.contacts {
+    background: #171717 url(../img/bg.png) repeat;
+    font-weight: 100;
+    font-size: 20px;
+}
+
+.contacts h1 {
+    color: #dadada;
+}
+
+.contact-cols {
+    margin: 70px 0 170px;
+    display: flex;
+}
+
+.contact-col {
+    width: 50vw;
+    padding: 0 80px;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.contact-col li {
+    display: block;
+    list-style: none;
+    padding: 0;
+}
+
+.contact-col label {
+    display: block;
+    color: #aaa;
+    cursor: pointer;
+}
+
+.contact-col span {
+    display: block;
+    color: #dadada;
+    margin-top: 10px;
+    white-space: nowrap;
+}
+
+.contact-col a {
+    display: block;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 20px 55px;
+}
+
+.contact-col a:hover span {
+    text-decoration: underline;
+}
+
+.contact-dance {
+    width: 100%;
+    height: 200px;
+    margin-top: 50px;
+    background: no-repeat center / contain;
+    background-image: url(../img/dance.gif);
+}

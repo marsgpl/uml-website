@@ -1,0 +1,56 @@
+.front {
+    background: #171717 url(../img/bg.png) repeat;
+    justify-content: center;
+}
+
+.front-logo {
+    margin-top: -50px;
+    width: 320px;
+    height: 320px;
+    background: url(../img/logo.svg) no-repeat center / cover;
+    filter: drop-shadow(2px 2px 0 #000);
+}
+
+.front-title {
+    margin-top: -50px;
+    color: #dadada;
+    text-shadow: 2px 2px 0 rgba(0, 0, 0, .5);
+    text-align: center;
+}
+
+.front-title h1 {
+    margin: 0;
+    font-size: 60px;
+}
+
+.front-title h2 {
+    margin: 10px 0 0 0;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.front-links {
+    margin: 100px 0 0 0;
+    display: flex;
+    padding: 0;
+}
+
+.front-links li {
+    display: block;
+    list-style: none;
+}
+
+.front-links li a {
+    color: #dadada;
+    font-weight: 100;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: block;
+    padding: 20px;
+    user-select: none;
+    font-size: 16px;
+}
+
+.front-links li a:hover {
+    text-decoration: underline;
+}

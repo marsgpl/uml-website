@@ -1,0 +1,75 @@
+.products {
+    background: #e4e4e4;
+}
+
+.products h1 {
+    color: #272727;
+}
+
+.products-cards {
+    margin: 60px 60px 90px;
+}
+
+.products-card {
+    width: 400px;
+    border-radius: 8px;
+    overflow: hidden;
+    background: #fff;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, .1);
+    color: #272727;
+}
+
+.products-card-img {
+    height: 400px;
+    background: no-repeat center / cover;
+}
+
+.products-card-title {
+    padding: 15px 17px;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.products-card-descr {
+    padding: 0 17px 15px;
+    font-size: 16px;
+}
+
+.products-card-avail-title {
+    padding: 10px 17px 15px;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 100;
+    user-select: none;
+}
+
+.products-card-avail-btns {
+    display: flex;
+    padding: 0 17px 15px;
+    justify-content: center;
+}
+
+.products-card-avail-btn {
+    overflow: hidden;
+    width: 177px;
+    height: 55px;
+    background: no-repeat center / contain;
+    display: block;
+    cursor: pointer;
+}
+
+.products-card-avail-btn + .products-card-avail-btn {
+    margin-left: 12px;
+}
+
+.products-card-avail-btn.ios {
+    background-image: url(../img/ios.svg);
+}
+
+.products-card-avail-btn.android {
+    background-image: url(../img/android.svg);
+}
+
+.products-cards.doge .products-card-img {
+    background-image: url(../img/doge.cover.jpg);
+}

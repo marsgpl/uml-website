@@ -1,0 +1,49 @@
+.scroll-tip {
+    position: absolute;
+    height: 100px;
+    bottom: 0;
+    right: 70px;
+    user-select: none;
+    border-right: 1px solid #dadada;
+}
+
+.scroll-tip a {
+    color: #dadada;
+    font-size: 12px;
+    font-weight: 100;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin: -10px 15px 0 0;
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.scroll-tip a::before {
+    content: '';
+    display: block;
+    width: 6px;
+    height: 6px;
+    border: 1px solid #dadada;
+    border-color: transparent transparent #dadada #dadada;
+    transform: rotate(-45deg);
+    margin: 0 10px 0 0;
+}
+
+.scroll-tip.dark {
+    border-right-color: #000;
+}
+
+.scroll-tip.dark a {
+    color: #000;
+}
+
+.scroll-tip.dark a::before {
+    border-color: transparent transparent #000 #000;
+}
+
+.scroll-tip.up a::before {
+    transform: rotate(135deg);
+    margin: 5px 10px 0 0;
+}

@@ -1,0 +1,46 @@
+.about {
+    background: #f4f4f4;
+}
+
+.about h1 {
+    color: #272727;
+}
+
+.about h2 {
+    font-size: 32px;
+    color: #272727;
+    margin: 70px 0 0 0;
+    font-weight: 100;
+}
+
+.about-punch {
+    position: relative;
+    margin: 30px 30px 50px;
+}
+
+.about-punch-img {
+    width: 640px;
+    height: 480px;
+    background: url(../img/punch.png) no-repeat center / contain;
+}
+
+.about-punch-bubble {
+    background: #272727;
+    border-radius: 5px;
+    padding: 15px 20px;
+    color: #fff;
+    font-size: 14px;
+    position: absolute;
+    user-select: none;
+    opacity: .9;
+}
+
+.about-punch-bubble.stronk {
+    left: 68px;
+    top: 60px;
+}
+
+.about-punch-bubble.weak {
+    left: 502px;
+    top: 349px;
+}

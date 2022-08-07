@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+    width="100%"
+    height="100%"
+    viewBox="50 50 462 462"
+>
+    <polygon
+        points="256 215 370 394 142 394"
+        fill="none"
+        stroke="#dadada"
+        filter="drop-shadow(30px 20px 0 #000)"
+        stroke-width="62"
+    />
+</svg>

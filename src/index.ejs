@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html style="background:#171717">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Unlimited Money Limited</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <link rel="manifest" href="manifest.json" />
+    <link rel="icon" href="/icons/logo.svg" type="image/svg+xml" />
+
+    <%= htmlWebpackPlugin.tags.headTags %>
+</head>
+
+<body>
+    <section class="front" id="front">
+        <div class="front-logo"></div>
+        <div class="front-title">
+            <h1>Unlimited Money Limited</h1>
+            <h2>Hong Kong software company</h2>
+        </div>
+        <ul class="front-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#products">Products</a></li>
+            <li><a href="#contacts">Contacts</a></li>
+        </ul>
+
+        <div class="scroll-tip">
+            <a href="#about">Scroll down</a>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <h1>About</h1>
+        <h2>
+            Such a company.
+            Hire us to develop a good software for you.
+            <br />
+            So fast. Much quality.
+            We also publish games.
+        </h2>
+        <div class="about-punch">
+            <div class="about-punch-img"></div>
+            <div class="about-punch-bubble stronk">Unlimited Money Limited</div>
+            <div class="about-punch-bubble weak">Competitors</div>
+        </div>
+
+        <div class="scroll-tip dark">
+            <a href="#products">Scroll down</a>
+        </div>
+    </section>
+
+    <section class="products" id="products">
+        <h1>Products</h1>
+
+        <div class="products-cards doge">
+            <div class="products-card">
+                <div class="products-card-img"></div>
+                <div class="products-card-title">Doge</div>
+                <div class="products-card-descr">RPG Mobile game. Conquer enemies, find treasures, beat other Doges. Such an adventure.</div>
+                <div class="products-card-avail-title">Play now:</div>
+                <div class="products-card-avail-btns">
+                    <a
+                        class="products-card-avail-btn ios"
+                        href="https://www.apple.com/my/app-store/"
+                        target="_blank"
+                    ></a>
+                    <a
+                        class="products-card-avail-btn android"
+                        href="https://play.google.com/store/games"
+                        target="_blank"
+                    ></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="scroll-tip dark">
+            <a href="#contacts">Scroll down</a>
+        </div>
+    </section>
+
+    <section class="contacts" id="contacts">
+        <h1>Contacts</h1>
+
+        <div class="contact-cols">
+            <ul class="contact-col">
+                <li>
+                    <a href="tel:+1XXXXXXXXXX">
+                        <label>Call us</label>
+                        <span>+1 (XXX) XXX-XX-XX</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="mailto:contact@unlimited-money-limited.com">
+                        <label>Email us</label>
+                        <span>contact@unlimited-money-limited.com</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://goo.gl/maps/udKWm4NZywdgispg7" target="_blank">
+                        <label>Head office</label>
+                        <span>
+                            21/F, CMA BUILDING, NO.64<br />
+                            CONNAUGHT ROAD CENTRAL,<br />
+                            HONG KONG
+                        </span>
+                    </a>
+                </li>
+            </ul>
+
+            <ul class="contact-col">
+                <li class="contact-dance"></li>
+            </ul>
+        </div>
+
+        <div class="scroll-tip up">
+            <a href="#front">Go back</a>
+        </div>
+    </section>
+
+    <%= htmlWebpackPlugin.tags.bodyTags %>
+</body>
+
+</html>
