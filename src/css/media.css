@@ -1,6 +1,6 @@
 @media (orientation:portrait) {
     html section {
-        padding: 8vw 5vw 20vw 5vw;
+        padding: 8vw 5vw 23vw 5vw;
     }
 
     .front-logo {
@@ -26,7 +26,7 @@
     .scroll-tip {
         right: 0;
         border-right: none;
-        height: 36px;
+        height: 50px;
     }
 
     .about h2 {
