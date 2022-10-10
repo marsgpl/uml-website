@@ -1,12 +1,13 @@
 {
-  "name": "@unlimited-money-limited/website",
+  "name": "@uml/website",
+  "private": true,
   "version": "1.0.0",
   "description": "Static business card website",
   "main": "dst/index.html",
   "scripts": {
     "watch": "webpack serve",
     "build": "rm -rf dst && webpack",
-    "deploy": "rsync -arvz -e 'ssh -p 56777' --progress --delete dst/* root@223.252.173.96:/var/www/uml.com"
+    "deploy": "rsync -arvz --progress --delete dst/* root@206.189.88.192:/var/www/uml.com"
   },
   "author": "",
   "license": "",

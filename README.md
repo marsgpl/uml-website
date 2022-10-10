@@ -1,5 +1,10 @@
-# Unlimited Money Limited
+# Company website
 
-## SSH
+## TODO
 
-    ssh -p 56777 root@223.252.173.96
+- page for doge app
+- phone in contacts
+- doge app stores links
+- meta tags
+- opengraph
+- seo
